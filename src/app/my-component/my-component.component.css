@@ -1,0 +1,15 @@
+div.contenedor {
+    display: flex;
+    width: 100%;
+}
+
+div.e1,
+div.e2 {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    padding: 50px;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+}

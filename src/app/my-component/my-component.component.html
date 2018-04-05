@@ -1,0 +1,14 @@
+<div class="contenedor">
+    <div class="e1">
+        <p>
+            my-component works <span>{{ count }}</span>!
+        </p>
+        <button (click)="count = count + 1">Click me</button>
+    </div>
+
+
+    <div class="e2"> <input type="text"
+               placeholder="enabled"
+               [disabled]="enabled"><br>
+        <button (click)="enabled = !enabled">Click me</button></div>
+</div>
